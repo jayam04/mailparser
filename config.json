@@ -1,0 +1,20 @@
+[
+    {
+        "conditions": {
+            "originalSender": "services@cdslindia.co.in",
+            "sender": "jayampatel04@gmail.com"
+        },
+        "rules": {
+            "sheetId": "https://docs.google.com/spreadsheets/d/19akPwXet5WExRZSeUA2IFW28OndjciMgrgt1UitEmzg/edit#gid=1135773708",
+            "sheetName": "transactions (demat)",
+            "row": [
+                "#6",
+                "#3",
+                "",
+                "#4",
+                "#5",
+                "$demat_account"
+            ]
+        }
+    }
+]
