@@ -26,7 +26,7 @@ class Mail:
         self.parse()
         self.parse_body()
         self.find_from_server()
-        self.find_original_sender()
+        # self.find_original_sender()
 
     def __str__(self) -> str:
         if self.subject:
@@ -39,7 +39,7 @@ class Mail:
         Parses the raw email into a dictionary.
         """
         self.subject = self.message.get("Subject")
-        self.sender_email = self.message.get("From").split("<")[1].split(">")[0]
+        # self.sender_email = self.message.get("From").split("<")[1].split(">")[0]
         self.date = self.message.get("Date")
         self.recipient = self.message.get("To")
 
