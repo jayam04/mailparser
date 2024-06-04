@@ -153,6 +153,7 @@ class ParsedMail:
             "originalSenderName": self.mail.original_sender_name,
             "sender": self.mail.sender_email,
             "subject": self.mail.subject,
+            "recipient": self.mail.recipient,
         }
     
     def generate_sheet_data(self, row_rules):
