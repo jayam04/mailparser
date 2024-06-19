@@ -163,3 +163,7 @@ cython_debug/
 
 # Private keys and data
 private
+
+# Cache
+.cache
+builds/cache
